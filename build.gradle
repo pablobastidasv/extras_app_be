@@ -29,6 +29,8 @@ dependencies {
     compile "org.neo4j:neo4j-ogm-bolt-driver:${kotlin_version}"
     compile "com.sparkjava:spark-kotlin:1.0.0-alpha"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version_jetbrains"
+    compile group: 'org.slf4j', name:'slf4j-api', version: '1.7.2'
+    compile group: 'org.slf4j', name:'slf4j-simple', version: '1.7.2'
 }
 
 jar{
@@ -48,3 +50,5 @@ compileKotlin {
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
+
+
