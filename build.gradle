@@ -2,15 +2,17 @@ group 'co.vpthon'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.1.4-3'
+    ext.kotlin_version_jetbrains = '1.1.4-3'
 
     repositories {
         mavenCentral()
     }
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version_jetbrains"
     }
 }
+
+ext.kotlin_version = '2.1.4'
 
 apply plugin: 'kotlin'
 
@@ -23,8 +25,10 @@ task wrapper(type: Wrapper){
 }
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile "org.neo4j:neo4j-ogm-core:${kotlin_version}"
+    compile "org.neo4j:neo4j-ogm-bolt-driver:${kotlin_version}"
     compile "com.sparkjava:spark-kotlin:1.0.0-alpha"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version_jetbrains"
 }
 
 jar{
