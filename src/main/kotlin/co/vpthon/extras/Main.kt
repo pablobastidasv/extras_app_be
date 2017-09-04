@@ -38,5 +38,4 @@ fun dataToJson(data: Any): String {
   } catch (e: IOException) {
     throw RuntimeException("IOException from a StringWriter")
   }
-
 }
