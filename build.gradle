@@ -20,8 +20,8 @@ repositories {
     mavenCentral()
 }
 
-task wrapper(type: Wrapper){
-	gradleVersion = "4.1"
+task wrapper(type: Wrapper) {
+    gradleVersion = "4.1"
 }
 
 dependencies {
@@ -29,12 +29,11 @@ dependencies {
     compile "org.neo4j:neo4j-ogm-bolt-driver:${kotlin_version}"
     compile "com.sparkjava:spark-kotlin:1.0.0-alpha"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version_jetbrains"
-    compile group: 'org.slf4j', name:'slf4j-api', version: '1.7.2'
-    compile group: 'org.slf4j', name:'slf4j-simple', version: '1.7.2'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
 }
 
-jar{
-    archiveName= "extras-be.jar"
+jar {
+    archiveName = "extras-be.jar"
     manifest {
         attributes(
                 'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
