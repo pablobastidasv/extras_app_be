@@ -97,24 +97,24 @@ City,Chiquinquira
 City,Puerto Asis
 City,Riosucio
 City,Acacias
-Eyes,Green 
+Eyes,Green
 Eyes,Blue
 Eyes,Brown
 Eyes,Black
 Ethnicity,American Indian
 Ethnicity,Asian
-Ethnicity,Black 
+Ethnicity,Black
 Ethnicity,White
-Ethnicity,Hispanic 
-BodyType ,Plump
-BodyType ,Stocky
-BodyType ,Overweight
-BodyType ,Fat
-BodyType ,Slim
-BodyType ,Trim
-BodyType ,Skinny
-BodyType ,Buff
-BodyType ,Well built
+Ethnicity,Hispanic
+BodyType,Plump
+BodyType,Stocky
+BodyType,Overweight
+BodyType,Fat
+BodyType,Slim
+BodyType,Trim
+BodyType,Skinny
+BodyType,Buff
+BodyType,Well built
 HairColor,Blond
 HairColor,Red
 HairColor,Grey
