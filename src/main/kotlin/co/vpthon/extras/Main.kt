@@ -10,7 +10,7 @@ import java.net.HttpURLConnection.HTTP_BAD_REQUEST
 
 fun main(args: Array<String>) {
 
-  Spark.post("/q1") { request, response ->
+  Spark.post("/search") { request, response ->
     try {
       val mapper = ObjectMapper()
       val creation = mapper.readValue(request.body(), Query::class.java)
