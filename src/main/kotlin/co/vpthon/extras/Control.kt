@@ -6,6 +6,5 @@ class Controller {
         return ArrayList<Person>()
     }
 
-
 }
 
