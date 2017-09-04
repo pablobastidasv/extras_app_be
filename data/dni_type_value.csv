@@ -324,7 +324,7 @@ dni,type,value
 27,Age,27
 27,Tattoo,Yes
 28,Gender,M
-28,City,Tulu·
+28,City,Tulu√°
 28,Eyes,Black
 28,Ethnicity,Black
 28,Height,177
@@ -648,7 +648,7 @@ dni,type,value
 54,Age,54
 54,Tattoo,No
 55,Gender,F
-55,City,Zipaquir·
+55,City,Zipaquir√°
 55,Eyes,Brown
 55,Ethnicity,Hispanic
 55,Height,190
@@ -768,7 +768,7 @@ dni,type,value
 64,Age,64
 64,Tattoo,No
 65,Gender,F
-65,City,CeretÈ
+65,City,Ceret√©
 65,Eyes,Green
 65,Ethnicity,Hispanic
 65,Height,173
@@ -900,7 +900,7 @@ dni,type,value
 75,Age,75
 75,Tattoo,Yes
 76,Gender,F
-76,City,San Juan de GirÛn
+76,City,San Juan de Gir√≥n
 76,Eyes,Black
 76,Ethnicity,American Indian
 76,Height,195
