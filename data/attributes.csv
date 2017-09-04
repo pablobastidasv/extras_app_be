@@ -1,0 +1,139 @@
+type,value
+Gender,M
+Gender,F
+City,Bogota
+City,Medellin
+City,Cali
+City,Barranquilla
+City,Cartagena
+City,Cucuta
+City,Bucaramanga
+City,Ibague
+City,Soledad
+City,Pereira
+City,Santa Marta
+City,Soacha
+City,San Juan de Pasto
+City,Monteria
+City,Villavicencio
+City,Manizales
+City,Bello
+City,Valledupar
+City,Neiva
+City,Buenaventura
+City,Palmira
+City,Armenia
+City,Popayan
+City,Floridablanca
+City,Sincelejo
+City,Itag�ui
+City,Magangue
+City,Tulu�
+City,Barrancabermeja
+City,Dosquebradas
+City,Envigado
+City,Riohacha
+City,Cartago
+City,Guadalajara de Buga
+City,Tunja
+City,Florencia
+City,Villa del Rosario
+City,Apartado
+City,Tumaco
+City,Maicao
+City,Turbo
+City,Uribia
+City,Piedecuesta
+City,Sogamoso
+City,Quibdo
+City,Maicao
+City,Ipiales
+City,Facatativ�
+City,Duitama
+City,Yopal
+City,Pitalito
+City,Zipaquir�
+City,Malambo
+City,Rionegro
+City,Chia
+City,Girardota
+City,Jamundi
+City,Yumbo
+City,Caucasia
+City,Sabanalarga
+City,Ceret�
+City,Aguachica
+City,Santander de Quilichao
+City,Tierralta
+City,Espinal
+City,Arauca
+City,Calarca
+City,Montelibano
+City,La Dorada
+City,Candelaria
+City,Santa Rosa de Cabal
+City,San Juan de Giron
+City,Garzon
+City,Caldas
+City,Carmen de Bolivar
+City,Manaure
+City,Los Patios
+City,San Andres
+City,Mosquera
+City,San Andres de Sotavento
+City,Turbaco
+City,Madrid
+City,Planeta Rica
+City,Funza
+City,Copacabana
+City,Arjona
+City,Chigorodo
+City,Corozal
+City,Zona Bananera
+City,Fundacion
+City,San Vicente del Caguan
+City,Florida
+City,Chiquinquira
+City,Puerto Asis
+City,Riosucio
+City,Acacias
+Eyes,Green 
+Eyes,Blue
+Eyes,Brown
+Eyes,Black
+Ethnicity,American Indian
+Ethnicity,Asian
+Ethnicity,Black 
+Ethnicity,White
+Ethnicity,Hispanic 
+BodyType ,Plump
+BodyType ,Stocky
+BodyType ,Overweight
+BodyType ,Fat
+BodyType ,Slim
+BodyType ,Trim
+BodyType ,Skinny
+BodyType ,Buff
+BodyType ,Well built
+HairColor,Blond
+HairColor,Red
+HairColor,Grey
+HairColor,White
+HairColor,Bald
+HairLength,Long
+HairLength,Short
+HairLength,Curly
+Nose,Greek
+Nose,Roman
+Nose,Nubian
+Nose,Hawk
+Nose,Snub
+Nose,Turnup
+Skin,Sensitive
+Skin,Fair
+Skin,Normal
+Skin,Olive
+Skin,Brown
+Skin,Black
+Tatoo,Yes
+Tatoo,No
