@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-./gradlew clean build
-docker-compose up -d
+./gradlew clean build && docker-compose up --build be
