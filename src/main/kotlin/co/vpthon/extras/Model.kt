@@ -32,6 +32,27 @@ data class Attribute(val type: String, val value: String) {
 
 }
 
-enum class AttributeType {
-    Gender,	City, Eyes, Ethnicity, Height, BodyType, HairColor, HairLength, Nose, Skin, Age, Tatoo
+data class Query(val gender: String,
+                 val city: String,
+                 val eyes: String,
+                 val ethnicity: String,
+                 val height: String,
+                 val bodyType: String,
+                 val hairColor: String,
+                 val hairLength: String,
+                 val nose: String,
+                 val skin: String,
+                 val age: String,
+                 val tattoo: String) {
+
+  constructor() : this("", "", "", "", "", "", "", "", "", "", "0", "")
+
+  fun isValid():Boolean {
+    return true
+  }
 }
+
+enum class AttributeType {
+  Gender, City, Eyes, Ethnicity, Height, BodyType, HairColor, HairLength, Nose, Skin, Age, Tatoo
+}
+
