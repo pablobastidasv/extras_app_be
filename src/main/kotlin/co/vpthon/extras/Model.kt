@@ -1,64 +1,51 @@
 package co.vpthon.extras
 
-import com.fasterxml.jackson.annotation.JsonIgnore
-import org.neo4j.ogm.annotation.GraphId
-import org.neo4j.ogm.annotation.NodeEntity
-import org.neo4j.ogm.annotation.Relationship
+import org.neo4j.ogm.annotation.*
 
 @NodeEntity
-data class Person(val name: String,
-                  @Relationship(type = "HAS", direction = "OUTGOING") val attributes: HashSet<Attribute>,
-                  @GraphId val id: Long = 0) {
-
-    fun attributesIn(attribute: Attribute) {
-        attributes.add(attribute)
-        attribute.getPeople().add(this)
-    }
-}
+class Person(
+        @GraphId
+        var id: Long? = null,
+        var name: String? = null,
+        var dni: String? = null,
+        @Relationship(type = "HAS")
+        var attributes: Set<Attribute>? = null
+)
 
 @NodeEntity
-data class Attribute(val type: AttributeType, val value: String) {
+class Attribute(
+        @GraphId
+        var id: Long? = null,
+        var type: AttributeType? = null,
+        var value: String? = null
+)
 
-    @JsonIgnore
-    @GraphId val id: Long = 0
+data class Pagination(val page: Int, val size: Int) {
+    constructor() : this(0, 0)
+}
 
-    @JsonIgnore
-    @Relationship(type = "HAS", direction = "INCOMING")
-    private val people = HashSet<Person>()
+data class Data(val gender: String,
+                val city: String,
+                val eyes: String,
+                val ethnicity: String,
+                val height: String,
+                val bodyType: String,
+                val hairColor: String,
+                val hairLength: String,
+                val nose: String,
+                val skin: String,
+                val age: String,
+                val tattoo: String) {
+    constructor() : this("", "", "", "", "", "", "", "", "", "", "0", "")
+}
 
-    fun getPeople () : HashSet<Person> {
-        return people
+data class Query(val data: Data, val pagination: Pagination) {
+
+    constructor() : this(Data(), Pagination())
+
+    fun isValid(): Boolean {
+        return true
     }
-
-}
-
-data class Pagination (val page: Integer, val size: Integer) {
-  constructor() : this(Integer(0), Integer(0))
-}
-
-data class Data( val gender:     String,
-                 val city:       String,
-                 val eyes:       String,
-                 val ethnicity:  String,
-                 val height:     String,
-                 val bodyType:   String,
-                 val hairColor:  String,
-                 val hairLength: String,
-                 val nose:       String,
-                 val skin:       String,
-                 val age:        String,
-                 val tattoo:     String)
-{
-  constructor() : this("", "", "", "", "", "", "", "", "", "", "0", "")
-}
-
-data class Query (val data: Data, val pagination: Pagination) {
-
-  constructor() : this(Data(), Pagination())
-
-  fun isValid():Boolean {
-    return true
-  }
 }
 
 enum class AttributeType {
