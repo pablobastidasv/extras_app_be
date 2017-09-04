@@ -20,7 +20,7 @@ class Neo4JConfig{
 
 class Neo4jSessionFactory private constructor(){
     private object Holder {
-        val INSTANCE = SessionFactory(Neo4JConfig().config, "co.vpnthon.extras")
+        val INSTANCE = SessionFactory(Neo4JConfig().config, "co.vpthon.extras")
     }
 
     companion object {
