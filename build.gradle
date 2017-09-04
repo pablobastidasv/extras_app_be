@@ -24,6 +24,7 @@ task wrapper(type: Wrapper){
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile 'com.sparkjava:spark-core:2.2'
 }
 
 jar{
