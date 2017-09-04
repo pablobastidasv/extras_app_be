@@ -21,19 +21,16 @@ class Controller {
     if (!query.data.ethnicity.isNullOrEmpty()) {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.Ethnicity.name}', value: '${query.data.ethnicity}' })")
     }
+
     if (!query.data.bodyType.isNullOrEmpty()) {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.BodyType.name}', value: '${query.data.bodyType}' })")
-    }
-
-    if (!query.data.gender.isNullOrEmpty()) {
-      cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.Gender.name}', value: '${query.data.gender}' })")
     }
 
     if (!query.data.tattoo.isNullOrEmpty()) {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.Tattoo.name}', value: '${query.data.tattoo}' })")
     }
 
-    if (!query.data.gender.isNullOrEmpty()) {
+    if (!query.data.age.isNullOrEmpty()) {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.Age.name}', value: '${query.data.age}' })")
     }
 
@@ -56,10 +53,10 @@ class Controller {
     if (!query.data.hairLength.isNullOrEmpty()) {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.HairLength.name}', value: '${query.data.hairLength}' })")
     }
-    val people = Neo4jSessionFactory.instance.openSession().query(cypher.toString(), params);
+
+    val people = Neo4jSessionFactory.instance.openSession().query(cypher.toString(), params)
 
     return ArrayList<Person>()
   }
-
 
 }
