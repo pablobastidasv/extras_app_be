@@ -49,5 +49,5 @@ data class Query(val data: Data, val pagination: Pagination) {
 }
 
 enum class AttributeType {
-  Gender, City, Eyes, Ethnicity, Height, BodyType, HairColor, HairLength, Nose, Skin, Age, Tatoo
+  Gender, City, Eyes, Ethnicity, Height, BodyType, HairColor, HairLength, Nose, Skin, Age, Tattoo
 }
