@@ -25,6 +25,6 @@ fun createAttributes() : HashSet<Attribute> {
   attributes.add(Attribute(type = AttributeType.Height,    value = "chaparro"))
   attributes.add(Attribute(type = AttributeType.Nose,      value = "En Garfio"))
   attributes.add(Attribute(type = AttributeType.Skin,      value = "Blanco"))
-  attributes.add(Attribute(type = AttributeType.Tatoo,     value = "All over"))
+  attributes.add(Attribute(type = AttributeType.Tattoo,     value = "All over"))
   return attributes
 }

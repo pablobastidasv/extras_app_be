@@ -1,6 +1,8 @@
 package co.vpthon.extras
 
 import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.HashSet
 
 class Controller {
 
@@ -30,16 +32,8 @@ class Controller {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.Tattoo.name}', value: '${query.data.tattoo}' })")
     }
 
-    if (!query.data.age.isNullOrEmpty()) {
-      cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.Age.name}', value: '${query.data.age}' })")
-    }
-
     if (!query.data.skin.isNullOrEmpty()) {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.Skin.name}', value: '${query.data.skin}' })")
-    }
-
-    if (!query.data.ethnicity.isNullOrEmpty()) {
-      cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.Ethnicity.name}', value: '${query.data.ethnicity}' })")
     }
 
     if (!query.data.nose.isNullOrEmpty()) {
@@ -54,9 +48,17 @@ class Controller {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.HairLength.name}', value: '${query.data.hairLength}' })")
     }
 
-    val people = Neo4jSessionFactory.instance.openSession().query(cypher.toString(), params)
+      println(cypher.toString())
 
-    return ArrayList<Person>()
+    var people = Neo4jSessionFactory.instance.openSession().query(Person::class.java, cypher.toString(), params)
+
+    var list : ArrayList<Person> = ArrayList<Person>()
+
+    people.forEach { p ->
+        val person = Neo4jSessionFactory.instance.openSession().load(Person::class.java, p.id)
+        list.add(person)
+    }
+    return list
   }
 
 }
