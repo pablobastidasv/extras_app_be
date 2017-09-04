@@ -1,0 +1,1201 @@
+dni,type,value
+1,Gender,M
+1,City,Bogota
+1,Eyes,Green 
+1,Ethnicity,American Indian
+1,Height,160
+1,BodyType ,Plump
+1,HairColor,Blond
+1,HairLength,Long
+1,Nose,Greek
+1,Skin,Sensitive
+1,Age,1
+1,Tatoo,Yes
+2,Gender,M
+2,City,Medellin
+2,Eyes,Blue
+2,Ethnicity,Asian
+2,Height,162
+2,BodyType ,Stocky
+2,HairColor,Red
+2,HairLength,Short
+2,Nose,Roman
+2,Skin,Fair
+2,Age,2
+2,Tatoo,No
+3,Gender,M
+3,City,Cali
+3,Eyes,Brown
+3,Ethnicity,Black 
+3,Height,164
+3,BodyType ,Overweight
+3,HairColor,Grey
+3,HairLength,Curly
+3,Nose,Nubian
+3,Skin,Normal
+3,Age,3
+3,Tatoo,Yes
+4,Gender,M
+4,City,Barranquilla
+4,Eyes,Black
+4,Ethnicity,White
+4,Height,166
+4,BodyType ,Fat
+4,HairColor,White
+4,HairLength,Long
+4,Nose,Hawk
+4,Skin,Olive
+4,Age,4
+4,Tatoo,No
+5,Gender,M
+5,City,Cartagena
+5,Eyes,Green 
+5,Ethnicity,Hispanic 
+5,Height,168
+5,BodyType ,Slim
+5,HairColor,Bald
+5,HairLength,Short
+5,Nose,Snub
+5,Skin,Brown
+5,Age,5
+5,Tatoo,Yes
+6,Gender,M
+6,City,Cucuta
+6,Eyes,Blue
+6,Ethnicity,American Indian
+6,Height,170
+6,BodyType ,Trim
+6,HairColor,Blond
+6,HairLength,Curly
+6,Nose,Turnup
+6,Skin,Black
+6,Age,6
+6,Tatoo,No
+7,Gender,M
+7,City,Bucaramanga
+7,Eyes,Brown
+7,Ethnicity,Asian
+7,Height,172
+7,BodyType ,Skinny
+7,HairColor,Red
+7,HairLength,Long
+7,Nose,Greek
+7,Skin,Sensitive
+7,Age,7
+7,Tatoo,Yes
+8,Gender,M
+8,City,Ibague
+8,Eyes,Black
+8,Ethnicity,Black 
+8,Height,174
+8,BodyType ,Buff
+8,HairColor,Grey
+8,HairLength,Short
+8,Nose,Roman
+8,Skin,Fair
+8,Age,8
+8,Tatoo,No
+9,Gender,M
+9,City,Soledad
+9,Eyes,Green 
+9,Ethnicity,White
+9,Height,176
+9,BodyType ,Well built
+9,HairColor,White
+9,HairLength,Curly
+9,Nose,Nubian
+9,Skin,Normal
+9,Age,9
+9,Tatoo,Yes
+10,Gender,M
+10,City,Pereira
+10,Eyes,Blue
+10,Ethnicity,Hispanic 
+10,Height,178
+10,BodyType ,Plump
+10,HairColor,Bald
+10,HairLength,Long
+10,Nose,Hawk
+10,Skin,Olive
+10,Age,10
+10,Tatoo,No
+11,Gender,M
+11,City,Santa Marta
+11,Eyes,Brown
+11,Ethnicity,American Indian
+11,Height,180
+11,BodyType ,Stocky
+11,HairColor,Blond
+11,HairLength,Short
+11,Nose,Snub
+11,Skin,Brown
+11,Age,11
+11,Tatoo,Yes
+12,Gender,M
+12,City,Soacha
+12,Eyes,Black
+12,Ethnicity,Asian
+12,Height,182
+12,BodyType ,Overweight
+12,HairColor,Red
+12,HairLength,Curly
+12,Nose,Turnup
+12,Skin,Black
+12,Age,12
+12,Tatoo,No
+13,Gender,M
+13,City,San Juan de Pasto
+13,Eyes,Green 
+13,Ethnicity,Black 
+13,Height,184
+13,BodyType ,Fat
+13,HairColor,Grey
+13,HairLength,Long
+13,Nose,Greek
+13,Skin,Sensitive
+13,Age,13
+13,Tatoo,Yes
+14,Gender,M
+14,City,Monteria
+14,Eyes,Blue
+14,Ethnicity,White
+14,Height,186
+14,BodyType ,Slim
+14,HairColor,White
+14,HairLength,Short
+14,Nose,Roman
+14,Skin,Fair
+14,Age,14
+14,Tatoo,No
+15,Gender,M
+15,City,Villavicencio
+15,Eyes,Brown
+15,Ethnicity,Hispanic 
+15,Height,188
+15,BodyType ,Trim
+15,HairColor,Bald
+15,HairLength,Curly
+15,Nose,Nubian
+15,Skin,Normal
+15,Age,15
+15,Tatoo,Yes
+16,Gender,M
+16,City,Manizales
+16,Eyes,Black
+16,Ethnicity,American Indian
+16,Height,190
+16,BodyType ,Skinny
+16,HairColor,Blond
+16,HairLength,Long
+16,Nose,Hawk
+16,Skin,Olive
+16,Age,16
+16,Tatoo,No
+17,Gender,M
+17,City,Bello
+17,Eyes,Green 
+17,Ethnicity,Asian
+17,Height,192
+17,BodyType ,Buff
+17,HairColor,Red
+17,HairLength,Short
+17,Nose,Snub
+17,Skin,Brown
+17,Age,17
+17,Tatoo,Yes
+18,Gender,M
+18,City,Valledupar
+18,Eyes,Blue
+18,Ethnicity,Black 
+18,Height,194
+18,BodyType ,Well built
+18,HairColor,Grey
+18,HairLength,Curly
+18,Nose,Turnup
+18,Skin,Black
+18,Age,18
+18,Tatoo,No
+19,Gender,M
+19,City,Neiva
+19,Eyes,Brown
+19,Ethnicity,White
+19,Height,196
+19,BodyType ,Plump
+19,HairColor,White
+19,HairLength,Long
+19,Nose,Greek
+19,Skin,Sensitive
+19,Age,19
+19,Tatoo,Yes
+20,Gender,M
+20,City,Buenaventura
+20,Eyes,Black
+20,Ethnicity,Hispanic 
+20,Height,161
+20,BodyType ,Stocky
+20,HairColor,Bald
+20,HairLength,Short
+20,Nose,Roman
+20,Skin,Fair
+20,Age,20
+20,Tatoo,No
+21,Gender,M
+21,City,Palmira
+21,Eyes,Green 
+21,Ethnicity,American Indian
+21,Height,163
+21,BodyType ,Overweight
+21,HairColor,Blond
+21,HairLength,Curly
+21,Nose,Nubian
+21,Skin,Normal
+21,Age,21
+21,Tatoo,Yes
+22,Gender,M
+22,City,Armenia
+22,Eyes,Blue
+22,Ethnicity,Asian
+22,Height,165
+22,BodyType ,Fat
+22,HairColor,Red
+22,HairLength,Long
+22,Nose,Hawk
+22,Skin,Olive
+22,Age,22
+22,Tatoo,No
+23,Gender,M
+23,City,Popayan
+23,Eyes,Brown
+23,Ethnicity,Black 
+23,Height,167
+23,BodyType ,Slim
+23,HairColor,Grey
+23,HairLength,Short
+23,Nose,Snub
+23,Skin,Brown
+23,Age,23
+23,Tatoo,Yes
+24,Gender,M
+24,City,Floridablanca
+24,Eyes,Black
+24,Ethnicity,White
+24,Height,169
+24,BodyType ,Trim
+24,HairColor,White
+24,HairLength,Curly
+24,Nose,Turnup
+24,Skin,Black
+24,Age,24
+24,Tatoo,No
+25,Gender,M
+25,City,Sincelejo
+25,Eyes,Green 
+25,Ethnicity,Hispanic 
+25,Height,171
+25,BodyType ,Skinny
+25,HairColor,Bald
+25,HairLength,Long
+25,Nose,Greek
+25,Skin,Sensitive
+25,Age,25
+25,Tatoo,Yes
+26,Gender,M
+26,City,ItagÅui
+26,Eyes,Blue
+26,Ethnicity,American Indian
+26,Height,173
+26,BodyType ,Buff
+26,HairColor,Blond
+26,HairLength,Short
+26,Nose,Roman
+26,Skin,Fair
+26,Age,26
+26,Tatoo,No
+27,Gender,M
+27,City,Magangue
+27,Eyes,Brown
+27,Ethnicity,Asian
+27,Height,175
+27,BodyType ,Well built
+27,HairColor,Red
+27,HairLength,Curly
+27,Nose,Nubian
+27,Skin,Normal
+27,Age,27
+27,Tatoo,Yes
+28,Gender,M
+28,City,Tulu†
+28,Eyes,Black
+28,Ethnicity,Black 
+28,Height,177
+28,BodyType ,Plump
+28,HairColor,Grey
+28,HairLength,Long
+28,Nose,Hawk
+28,Skin,Olive
+28,Age,28
+28,Tatoo,No
+29,Gender,M
+29,City,Barrancabermeja
+29,Eyes,Green 
+29,Ethnicity,White
+29,Height,179
+29,BodyType ,Stocky
+29,HairColor,White
+29,HairLength,Short
+29,Nose,Snub
+29,Skin,Brown
+29,Age,29
+29,Tatoo,Yes
+30,Gender,M
+30,City,Dosquebradas
+30,Eyes,Blue
+30,Ethnicity,Hispanic 
+30,Height,181
+30,BodyType ,Overweight
+30,HairColor,Bald
+30,HairLength,Curly
+30,Nose,Turnup
+30,Skin,Black
+30,Age,30
+30,Tatoo,No
+31,Gender,M
+31,City,Envigado
+31,Eyes,Brown
+31,Ethnicity,American Indian
+31,Height,183
+31,BodyType ,Fat
+31,HairColor,Blond
+31,HairLength,Long
+31,Nose,Greek
+31,Skin,Sensitive
+31,Age,31
+31,Tatoo,Yes
+32,Gender,M
+32,City,Riohacha
+32,Eyes,Black
+32,Ethnicity,Asian
+32,Height,185
+32,BodyType ,Slim
+32,HairColor,Red
+32,HairLength,Short
+32,Nose,Roman
+32,Skin,Fair
+32,Age,32
+32,Tatoo,No
+33,Gender,M
+33,City,Cartago
+33,Eyes,Green 
+33,Ethnicity,Black 
+33,Height,187
+33,BodyType ,Trim
+33,HairColor,Grey
+33,HairLength,Curly
+33,Nose,Nubian
+33,Skin,Normal
+33,Age,33
+33,Tatoo,Yes
+34,Gender,M
+34,City,Guadalajara de Buga
+34,Eyes,Blue
+34,Ethnicity,White
+34,Height,189
+34,BodyType ,Skinny
+34,HairColor,White
+34,HairLength,Long
+34,Nose,Hawk
+34,Skin,Olive
+34,Age,34
+34,Tatoo,No
+35,Gender,M
+35,City,Tunja
+35,Eyes,Brown
+35,Ethnicity,Hispanic 
+35,Height,191
+35,BodyType ,Buff
+35,HairColor,Bald
+35,HairLength,Short
+35,Nose,Snub
+35,Skin,Brown
+35,Age,35
+35,Tatoo,Yes
+36,Gender,M
+36,City,Florencia
+36,Eyes,Black
+36,Ethnicity,American Indian
+36,Height,193
+36,BodyType ,Well built
+36,HairColor,Blond
+36,HairLength,Curly
+36,Nose,Turnup
+36,Skin,Black
+36,Age,36
+36,Tatoo,No
+37,Gender,M
+37,City,Villa del Rosario
+37,Eyes,Green 
+37,Ethnicity,Asian
+37,Height,195
+37,BodyType ,Plump
+37,HairColor,Red
+37,HairLength,Long
+37,Nose,Greek
+37,Skin,Sensitive
+37,Age,37
+37,Tatoo,Yes
+38,Gender,M
+38,City,Apartado
+38,Eyes,Blue
+38,Ethnicity,Black 
+38,Height,197
+38,BodyType ,Stocky
+38,HairColor,Grey
+38,HairLength,Short
+38,Nose,Roman
+38,Skin,Fair
+38,Age,38
+38,Tatoo,No
+39,Gender,M
+39,City,Tumaco
+39,Eyes,Brown
+39,Ethnicity,White
+39,Height,199
+39,BodyType ,Overweight
+39,HairColor,White
+39,HairLength,Curly
+39,Nose,Nubian
+39,Skin,Normal
+39,Age,39
+39,Tatoo,Yes
+40,Gender,M
+40,City,Maicao
+40,Eyes,Black
+40,Ethnicity,Hispanic 
+40,Height,160
+40,BodyType ,Fat
+40,HairColor,Bald
+40,HairLength,Long
+40,Nose,Hawk
+40,Skin,Olive
+40,Age,40
+40,Tatoo,No
+41,Gender,M
+41,City,Turbo
+41,Eyes,Green 
+41,Ethnicity,American Indian
+41,Height,162
+41,BodyType ,Slim
+41,HairColor,Blond
+41,HairLength,Short
+41,Nose,Snub
+41,Skin,Brown
+41,Age,41
+41,Tatoo,Yes
+42,Gender,M
+42,City,Uribia
+42,Eyes,Blue
+42,Ethnicity,Asian
+42,Height,164
+42,BodyType ,Trim
+42,HairColor,Red
+42,HairLength,Curly
+42,Nose,Turnup
+42,Skin,Black
+42,Age,42
+42,Tatoo,No
+43,Gender,M
+43,City,Piedecuesta
+43,Eyes,Brown
+43,Ethnicity,Black 
+43,Height,166
+43,BodyType ,Skinny
+43,HairColor,Grey
+43,HairLength,Long
+43,Nose,Greek
+43,Skin,Sensitive
+43,Age,43
+43,Tatoo,Yes
+44,Gender,M
+44,City,Sogamoso
+44,Eyes,Black
+44,Ethnicity,White
+44,Height,168
+44,BodyType ,Buff
+44,HairColor,White
+44,HairLength,Short
+44,Nose,Roman
+44,Skin,Fair
+44,Age,44
+44,Tatoo,No
+45,Gender,M
+45,City,Quibdo
+45,Eyes,Green 
+45,Ethnicity,Hispanic 
+45,Height,170
+45,BodyType ,Well built
+45,HairColor,Bald
+45,HairLength,Curly
+45,Nose,Nubian
+45,Skin,Normal
+45,Age,45
+45,Tatoo,Yes
+46,Gender,M
+46,City,Maicao
+46,Eyes,Blue
+46,Ethnicity,American Indian
+46,Height,172
+46,BodyType ,Plump
+46,HairColor,Blond
+46,HairLength,Long
+46,Nose,Hawk
+46,Skin,Olive
+46,Age,46
+46,Tatoo,No
+47,Gender,M
+47,City,Ipiales
+47,Eyes,Brown
+47,Ethnicity,Asian
+47,Height,174
+47,BodyType ,Stocky
+47,HairColor,Red
+47,HairLength,Short
+47,Nose,Snub
+47,Skin,Brown
+47,Age,47
+47,Tatoo,Yes
+48,Gender,M
+48,City,Ipiales
+48,Eyes,Black
+48,Ethnicity,Black 
+48,Height,176
+48,BodyType ,Overweight
+48,HairColor,Grey
+48,HairLength,Curly
+48,Nose,Turnup
+48,Skin,Black
+48,Age,48
+48,Tatoo,No
+49,Gender,M
+49,City,Facatativa
+49,Eyes,Green 
+49,Ethnicity,White
+49,Height,178
+49,BodyType ,Fat
+49,HairColor,White
+49,HairLength,Long
+49,Nose,Greek
+49,Skin,Sensitive
+49,Age,49
+49,Tatoo,Yes
+50,Gender,M
+50,City,Duitama
+50,Eyes,Blue
+50,Ethnicity,Hispanic 
+50,Height,180
+50,BodyType ,Slim
+50,HairColor,Bald
+50,HairLength,Short
+50,Nose,Roman
+50,Skin,Fair
+50,Age,50
+50,Tatoo,No
+51,Gender,F
+51,City,Yopal
+51,Eyes,Brown
+51,Ethnicity,American Indian
+51,Height,182
+51,BodyType ,Trim
+51,HairColor,Blond
+51,HairLength,Curly
+51,Nose,Nubian
+51,Skin,Normal
+51,Age,51
+51,Tatoo,Yes
+52,Gender,F
+52,City,Rionegro
+52,Eyes,Black
+52,Ethnicity,Asian
+52,Height,184
+52,BodyType ,Skinny
+52,HairColor,Red
+52,HairLength,Long
+52,Nose,Hawk
+52,Skin,Olive
+52,Age,52
+52,Tatoo,No
+53,Gender,F
+53,City,Pitalito
+53,Eyes,Green 
+53,Ethnicity,Black 
+53,Height,186
+53,BodyType ,Buff
+53,HairColor,Grey
+53,HairLength,Short
+53,Nose,Snub
+53,Skin,Brown
+53,Age,53
+53,Tatoo,Yes
+54,Gender,F
+54,City,Rionegro
+54,Eyes,Blue
+54,Ethnicity,White
+54,Height,188
+54,BodyType ,Well built
+54,HairColor,White
+54,HairLength,Curly
+54,Nose,Turnup
+54,Skin,Black
+54,Age,54
+54,Tatoo,No
+55,Gender,F
+55,City,Zipaquir†
+55,Eyes,Brown
+55,Ethnicity,Hispanic 
+55,Height,190
+55,BodyType ,Plump
+55,HairColor,Bald
+55,HairLength,Long
+55,Nose,Greek
+55,Skin,Sensitive
+55,Age,55
+55,Tatoo,Yes
+56,Gender,F
+56,City,Malambo
+56,Eyes,Black
+56,Ethnicity,American Indian
+56,Height,192
+56,BodyType ,Stocky
+56,HairColor,Blond
+56,HairLength,Short
+56,Nose,Roman
+56,Skin,Fair
+56,Age,56
+56,Tatoo,No
+57,Gender,F
+57,City,Rionegro
+57,Eyes,Green 
+57,Ethnicity,Asian
+57,Height,194
+57,BodyType ,Overweight
+57,HairColor,Red
+57,HairLength,Curly
+57,Nose,Nubian
+57,Skin,Normal
+57,Age,57
+57,Tatoo,Yes
+58,Gender,F
+58,City,Chia
+58,Eyes,Blue
+58,Ethnicity,Black 
+58,Height,196
+58,BodyType ,Fat
+58,HairColor,Grey
+58,HairLength,Long
+58,Nose,Hawk
+58,Skin,Olive
+58,Age,58
+58,Tatoo,No
+59,Gender,F
+59,City,Girardot
+59,Eyes,Brown
+59,Ethnicity,White
+59,Height,161
+59,BodyType ,Slim
+59,HairColor,White
+59,HairLength,Short
+59,Nose,Snub
+59,Skin,Brown
+59,Age,59
+59,Tatoo,Yes
+60,Gender,F
+60,City,Jamundi
+60,Eyes,Black
+60,Ethnicity,Hispanic 
+60,Height,163
+60,BodyType ,Trim
+60,HairColor,Bald
+60,HairLength,Curly
+60,Nose,Turnup
+60,Skin,Black
+60,Age,60
+60,Tatoo,No
+61,Gender,F
+61,City,Yumbo
+61,Eyes,Green 
+61,Ethnicity,American Indian
+61,Height,165
+61,BodyType ,Skinny
+61,HairColor,Blond
+61,HairLength,Long
+61,Nose,Greek
+61,Skin,Sensitive
+61,Age,61
+61,Tatoo,Yes
+62,Gender,F
+62,City,Yumbo
+62,Eyes,Blue
+62,Ethnicity,Asian
+62,Height,167
+62,BodyType ,Buff
+62,HairColor,Red
+62,HairLength,Short
+62,Nose,Roman
+62,Skin,Fair
+62,Age,62
+62,Tatoo,No
+63,Gender,F
+63,City,Caucasia
+63,Eyes,Brown
+63,Ethnicity,Black 
+63,Height,169
+63,BodyType ,Well built
+63,HairColor,Grey
+63,HairLength,Curly
+63,Nose,Nubian
+63,Skin,Normal
+63,Age,63
+63,Tatoo,Yes
+64,Gender,F
+64,City,Sabanalarga
+64,Eyes,Black
+64,Ethnicity,White
+64,Height,171
+64,BodyType ,Plump
+64,HairColor,White
+64,HairLength,Long
+64,Nose,Hawk
+64,Skin,Olive
+64,Age,64
+64,Tatoo,No
+65,Gender,F
+65,City,Cerete
+65,Eyes,Green 
+65,Ethnicity,Hispanic 
+65,Height,173
+65,BodyType ,Stocky
+65,HairColor,Bald
+65,HairLength,Short
+65,Nose,Snub
+65,Skin,Brown
+65,Age,65
+65,Tatoo,Yes
+66,Gender,F
+66,City,Aguachica
+66,Eyes,Blue
+66,Ethnicity,American Indian
+66,Height,175
+66,BodyType ,Overweight
+66,HairColor,Blond
+66,HairLength,Curly
+66,Nose,Turnup
+66,Skin,Black
+66,Age,66
+66,Tatoo,No
+67,Gender,F
+67,City,Santander de Quilichao
+67,Eyes,Brown
+67,Ethnicity,Asian
+67,Height,177
+67,BodyType ,Fat
+67,HairColor,Red
+67,HairLength,Long
+67,Nose,Greek
+67,Skin,Sensitive
+67,Age,67
+67,Tatoo,Yes
+68,Gender,F
+68,City,Tierralta
+68,Eyes,Black
+68,Ethnicity,Black 
+68,Height,179
+68,BodyType ,Slim
+68,HairColor,Grey
+68,HairLength,Short
+68,Nose,Roman
+68,Skin,Fair
+68,Age,68
+68,Tatoo,No
+69,Gender,F
+69,City,Espinal
+69,Eyes,Green 
+69,Ethnicity,White
+69,Height,181
+69,BodyType ,Trim
+69,HairColor,White
+69,HairLength,Curly
+69,Nose,Nubian
+69,Skin,Normal
+69,Age,69
+69,Tatoo,Yes
+70,Gender,F
+70,City,Arauca
+70,Eyes,Blue
+70,Ethnicity,Hispanic 
+70,Height,183
+70,BodyType ,Skinny
+70,HairColor,Bald
+70,HairLength,Long
+70,Nose,Hawk
+70,Skin,Olive
+70,Age,70
+70,Tatoo,No
+71,Gender,F
+71,City,Calarca
+71,Eyes,Brown
+71,Ethnicity,American Indian
+71,Height,185
+71,BodyType ,Buff
+71,HairColor,Blond
+71,HairLength,Short
+71,Nose,Snub
+71,Skin,Brown
+71,Age,71
+71,Tatoo,Yes
+72,Gender,F
+72,City,Montelibano
+72,Eyes,Black
+72,Ethnicity,Asian
+72,Height,187
+72,BodyType ,Well built
+72,HairColor,Red
+72,HairLength,Curly
+72,Nose,Turnup
+72,Skin,Black
+72,Age,72
+72,Tatoo,No
+73,Gender,F
+73,City,La Dorada
+73,Eyes,Green 
+73,Ethnicity,Black 
+73,Height,189
+73,BodyType ,Plump
+73,HairColor,Grey
+73,HairLength,Long
+73,Nose,Greek
+73,Skin,Sensitive
+73,Age,73
+73,Tatoo,Yes
+74,Gender,F
+74,City,Candelaria
+74,Eyes,Blue
+74,Ethnicity,White
+74,Height,191
+74,BodyType ,Stocky
+74,HairColor,White
+74,HairLength,Short
+74,Nose,Roman
+74,Skin,Fair
+74,Age,74
+74,Tatoo,No
+75,Gender,F
+75,City,Santa Rosa de Cabal
+75,Eyes,Brown
+75,Ethnicity,Hispanic 
+75,Height,193
+75,BodyType ,Overweight
+75,HairColor,Bald
+75,HairLength,Curly
+75,Nose,Nubian
+75,Skin,Normal
+75,Age,75
+75,Tatoo,Yes
+76,Gender,F
+76,City,San Juan de Gir¢n
+76,Eyes,Black
+76,Ethnicity,American Indian
+76,Height,195
+76,BodyType ,Fat
+76,HairColor,Blond
+76,HairLength,Long
+76,Nose,Hawk
+76,Skin,Olive
+76,Age,76
+76,Tatoo,No
+77,Gender,F
+77,City,Garzon
+77,Eyes,Green 
+77,Ethnicity,Asian
+77,Height,197
+77,BodyType ,Slim
+77,HairColor,Red
+77,HairLength,Short
+77,Nose,Snub
+77,Skin,Brown
+77,Age,77
+77,Tatoo,Yes
+78,Gender,F
+78,City,Caldas
+78,Eyes,Blue
+78,Ethnicity,Black 
+78,Height,199
+78,BodyType ,Trim
+78,HairColor,Grey
+78,HairLength,Curly
+78,Nose,Turnup
+78,Skin,Black
+78,Age,78
+78,Tatoo,No
+79,Gender,F
+79,City,Carmen de Bolivar
+79,Eyes,Brown
+79,Ethnicity,White
+79,Height,150
+79,BodyType ,Skinny
+79,HairColor,White
+79,HairLength,Long
+79,Nose,Greek
+79,Skin,Sensitive
+79,Age,79
+79,Tatoo,Yes
+80,Gender,F
+80,City,Manaure
+80,Eyes,Black
+80,Ethnicity,Hispanic 
+80,Height,151
+80,BodyType ,Buff
+80,HairColor,Bald
+80,HairLength,Short
+80,Nose,Roman
+80,Skin,Fair
+80,Age,80
+80,Tatoo,No
+81,Gender,F
+81,City,Los Patios
+81,Eyes,Green 
+81,Ethnicity,American Indian
+81,Height,152
+81,BodyType ,Well built
+81,HairColor,Blond
+81,HairLength,Curly
+81,Nose,Nubian
+81,Skin,Normal
+81,Age,81
+81,Tatoo,Yes
+82,Gender,F
+82,City,San Andres
+82,Eyes,Blue
+82,Ethnicity,Asian
+82,Height,153
+82,BodyType ,Plump
+82,HairColor,Red
+82,HairLength,Long
+82,Nose,Hawk
+82,Skin,Olive
+82,Age,82
+82,Tatoo,No
+83,Gender,F
+83,City,Mosquera
+83,Eyes,Brown
+83,Ethnicity,Black 
+83,Height,154
+83,BodyType ,Stocky
+83,HairColor,Grey
+83,HairLength,Short
+83,Nose,Snub
+83,Skin,Brown
+83,Age,83
+83,Tatoo,Yes
+84,Gender,F
+84,City,San Andres de Sotavento
+84,Eyes,Black
+84,Ethnicity,White
+84,Height,155
+84,BodyType ,Overweight
+84,HairColor,White
+84,HairLength,Curly
+84,Nose,Turnup
+84,Skin,Black
+84,Age,84
+84,Tatoo,No
+85,Gender,F
+85,City,Turbaco
+85,Eyes,Green 
+85,Ethnicity,Hispanic 
+85,Height,156
+85,BodyType ,Fat
+85,HairColor,Bald
+85,HairLength,Long
+85,Nose,Greek
+85,Skin,Sensitive
+85,Age,85
+85,Tatoo,Yes
+86,Gender,F
+86,City,Madrid
+86,Eyes,Blue
+86,Ethnicity,American Indian
+86,Height,157
+86,BodyType ,Slim
+86,HairColor,Blond
+86,HairLength,Short
+86,Nose,Roman
+86,Skin,Fair
+86,Age,86
+86,Tatoo,No
+87,Gender,F
+87,City,Planeta Rica
+87,Eyes,Brown
+87,Ethnicity,Asian
+87,Height,158
+87,BodyType ,Trim
+87,HairColor,Red
+87,HairLength,Curly
+87,Nose,Nubian
+87,Skin,Normal
+87,Age,87
+87,Tatoo,Yes
+88,Gender,F
+88,City,Funza
+88,Eyes,Black
+88,Ethnicity,Black 
+88,Height,159
+88,BodyType ,Skinny
+88,HairColor,Grey
+88,HairLength,Long
+88,Nose,Hawk
+88,Skin,Olive
+88,Age,88
+88,Tatoo,No
+89,Gender,F
+89,City,Copacabana
+89,Eyes,Green 
+89,Ethnicity,White
+89,Height,160
+89,BodyType ,Buff
+89,HairColor,White
+89,HairLength,Short
+89,Nose,Snub
+89,Skin,Brown
+89,Age,89
+89,Tatoo,Yes
+90,Gender,F
+90,City,Arjona
+90,Eyes,Blue
+90,Ethnicity,Hispanic 
+90,Height,161
+90,BodyType ,Well built
+90,HairColor,Bald
+90,HairLength,Curly
+90,Nose,Turnup
+90,Skin,Black
+90,Age,90
+90,Tatoo,No
+91,Gender,F
+91,City,Chigorodo
+91,Eyes,Brown
+91,Ethnicity,American Indian
+91,Height,162
+91,BodyType ,Plump
+91,HairColor,Blond
+91,HairLength,Long
+91,Nose,Greek
+91,Skin,Sensitive
+91,Age,91
+91,Tatoo,Yes
+92,Gender,F
+92,City,Corozal
+92,Eyes,Black
+92,Ethnicity,Asian
+92,Height,163
+92,BodyType ,Stocky
+92,HairColor,Red
+92,HairLength,Short
+92,Nose,Roman
+92,Skin,Fair
+92,Age,92
+92,Tatoo,No
+93,Gender,F
+93,City,Zona Bananera
+93,Eyes,Green 
+93,Ethnicity,Black 
+93,Height,164
+93,BodyType ,Overweight
+93,HairColor,Grey
+93,HairLength,Curly
+93,Nose,Nubian
+93,Skin,Normal
+93,Age,93
+93,Tatoo,Yes
+94,Gender,F
+94,City,Fundacion
+94,Eyes,Blue
+94,Ethnicity,White
+94,Height,165
+94,BodyType ,Fat
+94,HairColor,White
+94,HairLength,Long
+94,Nose,Hawk
+94,Skin,Olive
+94,Age,94
+94,Tatoo,No
+95,Gender,F
+95,City,San Vicente del Caguan
+95,Eyes,Brown
+95,Ethnicity,Hispanic 
+95,Height,166
+95,BodyType ,Slim
+95,HairColor,Bald
+95,HairLength,Short
+95,Nose,Snub
+95,Skin,Brown
+95,Age,95
+95,Tatoo,Yes
+96,Gender,F
+96,City,Florida
+96,Eyes,Black
+96,Ethnicity,American Indian
+96,Height,167
+96,BodyType ,Trim
+96,HairColor,Blond
+96,HairLength,Curly
+96,Nose,Turnup
+96,Skin,Black
+96,Age,96
+96,Tatoo,No
+97,Gender,F
+97,City,Chiquinquira
+97,Eyes,Green 
+97,Ethnicity,Asian
+97,Height,168
+97,BodyType ,Skinny
+97,HairColor,Red
+97,HairLength,Long
+97,Nose,Greek
+97,Skin,Sensitive
+97,Age,97
+97,Tatoo,Yes
+98,Gender,F
+98,City,Puerto Asis
+98,Eyes,Blue
+98,Ethnicity,Black 
+98,Height,169
+98,BodyType ,Buff
+98,HairColor,Grey
+98,HairLength,Short
+98,Nose,Roman
+98,Skin,Fair
+98,Age,98
+98,Tatoo,No
+99,Gender,F
+99,City,Riosucio
+99,Eyes,Brown
+99,Ethnicity,White
+99,Height,170
+99,BodyType ,Well built
+99,HairColor,White
+99,HairLength,Curly
+99,Nose,Nubian
+99,Skin,Normal
+99,Age,99
+99,Tatoo,Yes
+100,Gender,F
+100,City,Acacias
+100,Eyes,Black
+100,Ethnicity,Hispanic 
+100,Height,171
+100,BodyType ,Plump
+100,HairColor,Bald
+100,HairLength,Long
+100,Nose,Hawk
+100,Skin,Olive
+100,Age,100
+100,Tatoo,No

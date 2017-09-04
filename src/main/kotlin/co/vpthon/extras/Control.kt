@@ -1,20 +1,22 @@
 package co.vpthon.extras
 
-import org.neo4j.ogm.session.Session
+import java.util.*
 
 class Controller {
 
     fun matchPeople(query: Query) : List<Person>{
 
         val params : HashMap<String, Object> = HashMap<String, Object>();
-        var cypher = "";
+        val cypher = StringJoiner(",", "MATCH ", " RETURN person")
 
-        val people = Neo4jSessionFactory.instance.openSession().query(cypher, params);
 
+        //Gender, City, Eyes, Ethnicity, Height, BodyType,
         if (!query.data.gender.isNullOrEmpty()) {
-            cypher+="";
+            cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.Gender.name}', value: '${query.data.gender}' }),");
         }
 
+
+        val people = Neo4jSessionFactory.instance.openSession().query(cypher.toString(), params);
 
         return ArrayList<Person>()
     }
