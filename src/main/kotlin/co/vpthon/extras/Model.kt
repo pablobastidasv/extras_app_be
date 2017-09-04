@@ -55,4 +55,3 @@ data class Query(val gender: String,
 enum class AttributeType {
   Gender, City, Eyes, Ethnicity, Height, BodyType, HairColor, HairLength, Nose, Skin, Age, Tatoo
 }
-
