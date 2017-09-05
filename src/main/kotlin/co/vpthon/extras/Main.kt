@@ -13,6 +13,10 @@ import javax.imageio.ImageIO
 
 fun main(args: Array<String>) {
 
+  Spark.get("/hola") { request, response ->
+    return@get "Hola Mundo"
+  }
+
   Spark.post("/search") { request, response ->
     try {
       val mapper = ObjectMapper()
@@ -25,6 +29,23 @@ fun main(args: Array<String>) {
       response.type("application/json")
       return@post dataToJson(Controller().matchPeople(creation))
     } catch (jpe: JsonParseException) {
+      response.status(HTTP_BAD_REQUEST)
+      return@post ""
+    }
+  }
+
+  Spark.post("/person") { request, response ->
+    try {
+      val mapper = ObjectMapper()
+      val person = mapper.readValue(request.body(), PersonCreation::class.java)
+      if (!person.isValid()) {
+        response.status(HTTP_BAD_REQUEST)
+        return@post ""
+      }
+      response.status(200)
+      response.type("application/json")
+      return@post dataToJson(Controller().createPerson(person))
+    } catch (e: Exception) {
       response.status(HTTP_BAD_REQUEST)
       return@post ""
     }

@@ -51,3 +51,17 @@ data class Query(val data: Data, val pagination: Pagination) {
 enum class AttributeType {
   Gender, City, Eyes, Ethnicity, Height, BodyType, HairColor, HairLength, Nose, Skin, Age, Tattoo
 }
+
+
+data class PersonCreation(val name: String, val dni: String, val attributes: ArrayList<AttributeCreation>) {
+    constructor() : this("", "", ArrayList<AttributeCreation>())
+
+    fun isValid(): Boolean {
+        return true
+    }
+}
+
+data class AttributeCreation(val value: String, val type: String) {
+    constructor() : this("", "")
+}
+

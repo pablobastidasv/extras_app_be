@@ -2,7 +2,6 @@ package co.vpthon.extras
 
 import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.collections.HashSet
 
 class Controller {
 
@@ -48,8 +47,6 @@ class Controller {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.HairLength.name}', value: '${query.data.hairLength}' })")
     }
 
-      println(cypher.toString())
-
     var people = Neo4jSessionFactory.instance.openSession().query(Person::class.java, cypher.toString(), params)
 
     var list : ArrayList<Person> = ArrayList<Person>()
@@ -61,4 +58,27 @@ class Controller {
     return list
   }
 
+  fun createPerson(data: PersonCreation): Boolean {
+
+      val person = Person()
+      person.name = data.name
+      person.dni = data.dni
+
+      var attributes = HashSet<Attribute>()
+      data.attributes.forEach { a ->
+
+          val attribute = Attribute()
+          attribute.value = a.value
+          attribute.type = AttributeType.valueOf(a.type)
+
+          attributes.add(attribute)
+      }
+      person.attributes = attributes
+
+      Neo4jSessionFactory.instance.openSession().save(person)
+      return true
+  }
+
 }
+
+
