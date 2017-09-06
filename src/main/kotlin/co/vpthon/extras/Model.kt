@@ -22,22 +22,24 @@ class Attribute(
   var value: String? = null
 )
 
-data class Pagination(val page: Int = 0, val size: Int = 10)
+data class Pagination(val page: Int, val size: Int){
+  fun toNeo4jLimit(): String = org.neo4j.ogm.cypher.query.Pagination(page, size).toString()
+}
 
-data class Data(var gender: String? = null,
-                var city: String? = null,
-                var eyes: String? = null,
-                var ethnicity: String? = null,
-                var height: String? = null,
-                var bodyType: String? = null,
-                var hairColor: String? = null,
-                var hairLength: String? = null,
-                var nose: String? = null,
-                var skin: String? = null,
-                var age: String? = null,
-                var tattoo: String? = null)
+data class Data(val gender: String,
+                val city: String,
+                val eyes: String,
+                val ethnicity: String,
+                val height: String,
+                val bodyType: String,
+                val hairColor: String,
+                val hairLength: String,
+                val nose: String,
+                val skin: String,
+                val age: String,
+                val tattoo: String)
 
-data class Query(val data: Data = Data(), val pagination: Pagination = Pagination())
+data class Query(val data: Data, val pagination: Pagination)
 
 enum class AttributeType {
   Gender, City, Eyes, Ethnicity, Height, BodyType, HairColor, HairLength, Nose, Skin, Age, Tattoo
