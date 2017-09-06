@@ -6,7 +6,6 @@ class Controller {
 
   fun matchPeople(query: Query): List<Person> {
 
-    val params: HashMap<String, Any> = HashMap()
     val cypher = StringJoiner(", ", "MATCH ", " RETURN person")
 
     if (!query.data.gender.isNullOrEmpty()) {
@@ -40,7 +39,8 @@ class Controller {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.HairLength.name}', value: '${query.data.hairLength}' })")
     }
 
-    val people = Neo4jSessionFactory.instance.openSession().query(Person::class.java, cypher.toString(), params)
+    val cypherQuery = cypher.toString() + " ${query.pagination.toNeo4jLimit()}"
+    val people = Neo4jSessionFactory.instance.openSession().query(Person::class.java, cypherQuery, HashMap<String, Any>())
 
     return people.toList()
   }
