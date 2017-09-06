@@ -43,8 +43,3 @@ enum class AttributeType {
   Gender, City, Eyes, Ethnicity, Height, BodyType, HairColor, HairLength, Nose, Skin, Age, Tattoo
 }
 
-
-data class PersonCreation(val name: String, val dni: String, val attributes: ArrayList<AttributeCreation>)
-
-data class AttributeCreation(val value: String, val type: String)
-
