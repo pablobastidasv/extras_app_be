@@ -7,7 +7,7 @@ class Controller {
 
   fun matchPeople(query: Query): List<Person> {
 
-    val params: HashMap<String, Object> = HashMap<String, Object>();
+    val params: HashMap<String, Any> = HashMap()
     val cypher = StringJoiner(", ", "MATCH ", " RETURN person")
 
     if (!query.data.gender.isNullOrEmpty()) {
@@ -47,36 +47,15 @@ class Controller {
       cypher.add("(person:Person)-[:HAS]-(:Attribute{type: '${AttributeType.HairLength.name}', value: '${query.data.hairLength}' })")
     }
 
-    var people = Neo4jSessionFactory.instance.openSession().query(Person::class.java, cypher.toString(), params)
+    val people = Neo4jSessionFactory.instance.openSession().query(Person::class.java, cypher.toString(), params)
 
-    var list : ArrayList<Person> = ArrayList<Person>()
+    val list: ArrayList<Person> = ArrayList<Person>()
 
     people.forEach { p ->
-        val person = Neo4jSessionFactory.instance.openSession().load(Person::class.java, p.id)
-        list.add(person)
+      val person = Neo4jSessionFactory.instance.openSession().load(Person::class.java, p.id)
+      list.add(person)
     }
     return list
-  }
-
-  fun createPerson(data: PersonCreation): Boolean {
-
-      val person = Person()
-      person.name = data.name
-      person.dni = data.dni
-
-      var attributes = HashSet<Attribute>()
-      data.attributes.forEach { a ->
-
-          val attribute = Attribute()
-          attribute.value = a.value
-          attribute.type = AttributeType.valueOf(a.type)
-
-          attributes.add(attribute)
-      }
-      person.attributes = attributes
-
-      Neo4jSessionFactory.instance.openSession().save(person)
-      return true
   }
 
 }
