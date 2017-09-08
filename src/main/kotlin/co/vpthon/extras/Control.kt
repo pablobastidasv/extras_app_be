@@ -2,7 +2,7 @@ package co.vpthon.extras
 
 import java.util.*
 
-class Controller {
+class SearchController {
 
   fun matchPeople(query: Query): List<Person> {
 
@@ -44,13 +44,17 @@ class Controller {
 
     return people.toList()
   }
+}
+
+class PeopleController{
 
   fun personAttributes(dni: String): List<Attribute> {
 
-    val cypherQuery = "MATCH (attribute:Attribute)-[:HAS]-(:Person {dni: '${dni}'}) RETURN attribute";
+    val cypherQuery = "MATCH (attribute:Attribute)-[:HAS]-(:Person {dni: '$dni'}) RETURN attribute"
     val attributes = Neo4jSessionFactory.instance.openSession().query(Attribute::class.java, cypherQuery, HashMap<String, Any>())
 
     return attributes.toList()
+
   }
 
 }
