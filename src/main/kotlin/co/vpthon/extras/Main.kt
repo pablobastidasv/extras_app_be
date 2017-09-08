@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
     person
   }, gson::toJson)
 
-  get("/personAttributes/:dni", { req, _ ->
+  get("/people/:dni/attributes", { req, _ ->
     Controller().personAttributes(req.params("dni"))
   }, gson::toJson)
 }

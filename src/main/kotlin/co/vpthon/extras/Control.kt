@@ -47,7 +47,7 @@ class Controller {
 
   fun personAttributes(dni: String): List<Attribute> {
 
-    val cypherQuery = "MATCH (attribute:Attribute)-[:HAS]-(person:Person {dni: '${dni}'}) RETURN attribute";
+    val cypherQuery = "MATCH (attribute:Attribute)-[:HAS]-(:Person {dni: '${dni}'}) RETURN attribute";
     val attributes = Neo4jSessionFactory.instance.openSession().query(Attribute::class.java, cypherQuery, HashMap<String, Any>())
 
     return attributes.toList()
