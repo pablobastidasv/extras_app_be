@@ -1,8 +1,6 @@
 package co.vpthon.extras
 
-import spark.Spark.post
-import spark.Spark.path
-import spark.Spark.get
+import spark.Spark.*
 
 
 class SearchResources {
@@ -16,7 +14,7 @@ class SearchResources {
 
 class PeopleResources {
   fun load() {
-    path("/people",{
+    path("/people", {
       post("", { req, res ->
         res.status(201)
 
@@ -24,13 +22,19 @@ class PeopleResources {
         Neo4jSessionFactory.instance.openSession().save(person)
         person
       }, gson::toJson)
+
+      path("/:dni", {
+        get("/attributes", { req, _ ->
+          PeopleController().personAttributes(req.params("dni"))
+        }, gson::toJson)
+      })
     })
   }
 }
 
 class AttributesResources {
   fun load() {
-    path("/attributes",{
+    path("/attributes", {
       get("", { _, _ ->
         Neo4jSessionFactory.instance.openSession().loadAll(Attribute::class.java)
           .groupBy { it.type }
