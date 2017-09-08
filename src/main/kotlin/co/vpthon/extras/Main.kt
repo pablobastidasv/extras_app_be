@@ -3,6 +3,7 @@ package co.vpthon.extras
 import com.google.gson.Gson
 import spark.Spark.before
 import spark.Spark.post
+import spark.Spark.get
 
 val gson: Gson = Gson()
 
@@ -21,5 +22,9 @@ fun main(args: Array<String>) {
     val person = gson.fromJson(req.body(), Person::class.java)
     Neo4jSessionFactory.instance.openSession().save(person)
     person
+  }, gson::toJson)
+
+  get("/personAttributes/:dni", { req, _ ->
+    Controller().personAttributes(req.params("dni"))
   }, gson::toJson)
 }
