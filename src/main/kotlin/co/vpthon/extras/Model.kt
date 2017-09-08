@@ -26,18 +26,18 @@ data class Pagination(val page: Int, val size: Int){
   fun toNeo4jLimit(): String = org.neo4j.ogm.cypher.query.Pagination(page, size).toString()
 }
 
-data class Data(val gender: String,
-                val city: String,
-                val eyes: String,
-                val ethnicity: String,
-                val height: String,
-                val bodyType: String,
-                val hairColor: String,
-                val hairLength: String,
-                val nose: String,
-                val skin: String,
-                val age: String,
-                val tattoo: String)
+data class Data(val gender: String?,
+                val city: String?,
+                val eyes: String?,
+                val ethnicity: String?,
+                val height: String?,
+                val bodyType: String?,
+                val hairColor: String?,
+                val hairLength: String?,
+                val nose: String?,
+                val skin: String?,
+                val age: String?,
+                val tattoo: String?)
 
 data class Query(val data: Data, val pagination: Pagination)
 

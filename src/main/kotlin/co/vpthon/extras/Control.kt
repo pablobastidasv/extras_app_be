@@ -2,7 +2,7 @@ package co.vpthon.extras
 
 import java.util.*
 
-class Controller {
+class SearchController {
 
   fun matchPeople(query: Query): List<Person> {
 
