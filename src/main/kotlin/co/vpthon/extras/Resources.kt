@@ -14,9 +14,9 @@ class SearchResources {
   }
 }
 
-class PersonResources {
+class PeopleResources {
   fun load() {
-    path("/persons",{
+    path("/people",{
       post("", { req, res ->
         res.status(201)
 
@@ -28,7 +28,7 @@ class PersonResources {
   }
 }
 
-class AttributeResources{
+class AttributesResources {
   fun load() {
     path("/attributes",{
       get("", { _, _ ->

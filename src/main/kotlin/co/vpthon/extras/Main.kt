@@ -10,6 +10,6 @@ fun main(args: Array<String>) {
   before("*", { _, res -> res.type("application/json") })
 
   SearchResources().load()
-  PersonResources().load()
-  AttributeResources().load()
+  PeopleResources().load()
+  AttributesResources().load()
 }
