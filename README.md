@@ -2,6 +2,11 @@
 
 ![alt text](readme/intellijIdea_RunnerConfig.png "Intellij idea configuration")
 
+##Creating Constraints
+```Cypher
+CREATE CONSTRAINT ON (p:Person) ASSERT p.dni IS UNIQUE
+```
+
 ##Loading data
 
 ### Persons
