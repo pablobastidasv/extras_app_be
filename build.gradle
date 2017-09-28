@@ -48,6 +48,9 @@ jar {
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
 
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
+
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
