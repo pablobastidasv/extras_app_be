@@ -19,8 +19,7 @@ class PeopleResources {
         res.status(201)
 
         val person = gson.fromJson(req.body(), Person::class.java)
-        val data = PeopleController().createPerson(person)
-        data
+        PeopleController().createPerson(person)
       }, gson::toJson)
 
       path("/:dni", {
