@@ -7,17 +7,15 @@ class Neo4JConfig {
   val config: Configuration = Configuration()
 
   init {
+    val user: String = System.getenv("NEO4J_USER")
     val password: String = System.getenv("NEO4J_PASS")
     val server: String = System.getenv("NEO4J_SERVER")
-
-    println( "**** server: $server" )
-    println( "**** password: $password" )
 
     config.driverConfiguration()
     config.driverConfiguration().driverClassName = "org.neo4j.ogm.drivers.bolt.driver.BoltDriver"
     config.driverConfiguration().uri = "bolt://$server"
     config.driverConfiguration().connectionPoolSize = 150
-    config.driverConfiguration().setCredentials("neo4j", password)
+    config.driverConfiguration().setCredentials(user, password)
   }
 }
 
