@@ -9,6 +9,8 @@ fun main(args: Array<String>) {
 
   before("*", { _, res -> res.type("application/json") })
 
+  ExceptionsHandling().load()
+
   SearchResources().load()
   PeopleResources().load()
   AttributesResources().load()
