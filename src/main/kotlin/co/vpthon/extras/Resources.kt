@@ -19,8 +19,8 @@ class PeopleResources {
         res.status(201)
 
         val person = gson.fromJson(req.body(), Person::class.java)
-        Neo4jSessionFactory.instance.openSession().save(person)
-        person
+        val data = PeopleController().createPerson(person)
+        data
       }, gson::toJson)
 
       path("/:dni", {

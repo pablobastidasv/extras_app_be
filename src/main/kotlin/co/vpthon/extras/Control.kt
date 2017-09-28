@@ -57,4 +57,17 @@ class PeopleController{
 
   }
 
+  fun createPerson(person: Person): Person {
+    // Saves the Person without saving the Attributes
+    Neo4jSessionFactory.instance.openSession().save(person, 0)
+    // Marks the relationship between the created Person and the existing Attributes
+    person.attributes?.forEach { a ->
+      val attrCypherQuery = "MATCH (person:Person), (attribute:Attribute) " +
+        "WHERE person.dni = '${person.dni}' and attribute.type = '${a.type?.name}' and attribute.value = '${a.value}' " +
+        "CREATE (person)-[:HAS]->(attribute)"
+      Neo4jSessionFactory.instance.openSession().query(attrCypherQuery, HashMap<String, Any>())
+    }
+    return Neo4jSessionFactory.instance.openSession().load(Person::class.java, person.id)
+  }
+
 }
